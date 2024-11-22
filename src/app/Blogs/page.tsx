@@ -1,5 +1,4 @@
  "use client"
-import Link from "next/link"
 import Image from "next/image"
 import callcenter from "@/assets/callcenter.jpg"
 import vegetation from "@/assets/vegetation.jpg"
