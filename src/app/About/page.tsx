@@ -1,5 +1,6 @@
 import Link from "next/link"
-import Navbar from "@/app/components/Navbar"
+import Navbar from "@/components/Navbar"
+
 export default function About() {
     return ( <div className="bg-gray-950 h-screen w-screen">
         <Navbar/>
@@ -12,6 +13,17 @@ export default function About() {
  <br/>
  With my zeal, I am moving forward in my journey of software and web development. 
  </p>
+ <div>
+ <h1 className="text-blue-500 text-2xl text-center font-lato px-6 py-4 mb-4">Expertise in:</h1>
+ <ul className="text-white text-2xl font-lato text-center px-4 py-4 mb-4">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Javascript</li>
+  <li>Typescript</li>
+  <li>Next.js</li>
+  <li>Tailwindcss</li>
+  </ul>
+    </div>
     </div>
     )
 }

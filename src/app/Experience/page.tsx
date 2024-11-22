@@ -1,5 +1,6 @@
 import Link from "next/link"
-import Navbar from "@/app/components/Navbar"
+import Navbar from "@/components/Navbar"
+
 export default function Experience() {
     return <div className="bg-gray-950 h-screen w-screen">
         <Navbar/>

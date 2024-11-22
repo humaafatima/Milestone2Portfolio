@@ -1,11 +1,11 @@
 import Link from "next/link"
-import Navbar from "@/app/components/Navbar"
+import Navbar from "@/components/Navbar"
 import Image from "next/image"
-import twitter from "@/app/assets/twitter.png"
-import linkedinicon from "@/app/assets/linkedinicon.svg"
-import discord from "@/app/assets/discord.png"
-import gmail from "@/app/assets/gmail.svg"
-import github from "@/app/assets/github.svg"
+import twitter from "@/assets/twitter.png"
+import linkedinicon from "@/assets/linkedinicon.svg"
+import discord from "@/assets/discord.png"
+import gmail from "@/assets/gmail.svg"
+import github from "@/assets/github.svg"
 
 export default function Contact() {
     return (
@@ -30,9 +30,11 @@ export default function Contact() {
     
     <h1 className="text-white text-1xl text-center">Follow me on Discord</h1>
     <div className="flex px-6 justify-center">
+        <a href='https://discord.com/channels/@me' target="_blank">
         <Image src={discord} alt="discord Id" width="50" height="50" className="w-50 h-50 rounded-full border-blue-500 py-6">
             
         </Image>
+        </a>
     </div>
     <h1 className="text-white text-1xl text-center">Connect with me on Linkedin</h1>
     <div className="flex px-6 justify-center">

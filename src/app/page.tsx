@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image"
-import profilepic from "@/app/assets/profilepic.jpg"
-import Navbar from "@/app/components/Navbar"
+import profilepic from "@/assets/profilepic.jpg"
+import Navbar from "@/components/Navbar"
 export default function Home(){
   return ( <div className="bg-gray-950 h-screen w-screen">
 <Navbar/>
